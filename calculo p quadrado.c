@@ -6,8 +6,8 @@ int main(){
     printf("Programa que calcula o perimetro de um quadradro\n\n");
 
     printf("Quanto mede (em cm) o lado do quadrado?\n");
-    scanf("%lf", lado1);
-    scanf("%lf", lado2);
+    scanf("%lf", &lado1);
+    scanf("%lf", &lado2);
 
     perimetro = 2*lado1 + 2*lado2;
 
